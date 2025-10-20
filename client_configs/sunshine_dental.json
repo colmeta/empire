@@ -1,0 +1,22 @@
+{
+  "business_name": "Sunshine Dental Clinic",
+  "industry": "Healthcare - Dentistry",
+  "phone": "(305) 555-1234",
+  "email": "info@sunshinedental.com",
+  "services": {
+    "cleaning": 120,
+    "whitening": 350,
+    "filling": 200
+  },
+  "hours": {
+    "monday": "8am-6pm",
+    "tuesday": "8am-6pm",
+    "saturday": "9am-2pm"
+  },
+  "integrations": {
+    "whatsapp": true,
+    "crm": "hubspot",
+    "calendar": "calendly"
+  },
+  "calendly_username": "sunshinedental"
+}
