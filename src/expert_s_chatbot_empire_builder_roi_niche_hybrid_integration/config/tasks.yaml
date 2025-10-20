@@ -1,0 +1,120 @@
+---
+calculate_roi_and_cost_savings_analysis:
+  description: |-
+    For {client_business_name} in {industry}, create a powerful ROI calculation that sells the business outcome, not the chatbot. Don't sell "a chatbot"; sell a tangible business outcome around cost savings and revenue growth.
+
+    **ROI Calculations Required:**
+    1. **Cost Savings Analysis**: Show that a chatbot interaction costs around $0.50, while a human-handled one costs an average of $6.00. Calculate the direct savings from automating a percentage of their customer inquiries.
+
+    2. **Revenue Growth Projections**: Demonstrate how a 24/7 chatbot can increase sales by an average of 67% by capturing after-hours leads, qualifying prospects, and automating appointment booking. Show how successful implementations have attributed up to 25% of a company's sales pipeline to chatbots.
+
+    3. **Industry-Specific Value Propositions**: Frame your service around what clients actually want in {industry} - cost savings and revenue growth with precise calculations.
+
+    **Critical**: Your most powerful sales tool is a clear Return on Investment (ROI) calculation. Never sell technology - always sell measurable business outcomes.
+  expected_output: "A comprehensive ROI analysis report including:\n- Exact cost comparison:
+    $0.50 chatbot vs $6.00 human interaction costs\n- Revenue growth projection showing
+    67% sales increase from 24/7 availability  \n- Pipeline attribution showing up
+    to 25% of sales from chatbots\n- Industry-specific savings calculations for {client_business_name}\n-
+    Tangible business outcome metrics that justify the investment\n- Clear ROI timeline
+    and payback period analysis"
+  agent: roi_focused_strategy_analyst
+identify_high_value_niche_specialization:
+  description: |-
+    For {client_business_name} in {industry}, identify their high-value niche specialization. The barrier to entry for generic chatbots is low. The secret to high profitability is to specialize. Position them as the go-to expert for their specific industry where automation solves a critical pain point, allowing them to command premium pricing.
+
+    **Top High-Value Niches to Evaluate:**
+
+    1. **Healthcare** ($50,000 - $150,000+ projects): Automating patient intake, appointment scheduling, and medication reminders while ensuring HIPAA compliance. Custom healthcare bots can cost $50,000 - $150,000+.
+
+    2. **Real Estate**: Building bots that qualify leads, schedule property viewings, and answer complex property questions 24/7.
+
+    3. **E-commerce**: Creating personalized shopping assistants that handle order tracking, returns, and intelligent product recommendations to reduce cart abandonment.
+
+    **Analysis**: Determine which niche {client_business_name} fits into and create a specialization strategy that positions them as THE expert in that vertical, not a generic chatbot provider.
+  expected_output: |-
+    A niche specialization strategy including:
+    - Identification of {client_business_name}'s optimal high-value niche (Healthcare $50k-$150k+, Real Estate, E-commerce, etc.)
+    - Critical pain points in their industry that justify premium pricing
+    - Competitive advantage strategy for their vertical specialization
+    - Positioning as THE expert rather than generic chatbot provider
+    - Industry-specific automation opportunities that command premium rates
+  agent: high_value_niche_specialist
+  context:
+  - calculate_roi_and_cost_savings_analysis
+build_deep_integration_chatbot_solution:
+  description: |-
+    Go Beyond No-Code Tools: Integrate for Value. For {client_business_name}, while free tools like Zapier Chatbots or Botpress are excellent for getting started, true value (and higher prices) comes from creating a chatbot that is deeply integrated into their workflow.
+
+    **Deep Integration Requirements:**
+
+    1. **Connect to Knowledge Base**: Use Retrieval-Augmented Generation (RAG) to connect the chatbot to {client_business_name}'s internal documents, ensuring it provides accurate, business-specific answers.
+
+    2. **Integrate with Core Business Systems**: Connect the chatbot to CRMs (like Salesforce), helpdesks (like Zendesk), and calendars to automate tasks like creating support tickets, updating customer records, and booking meetings.
+
+    3. **Advanced Integration Architecture**: Build a solution that goes beyond basic no-code tools to justify premium pricing through deep workflow integration.
+
+    Create a chatbot that becomes an integral part of their business operations, not just a basic question-answer tool.
+  expected_output: "Complete deep integration chatbot solution including:\n- RAG-powered
+    knowledge base connection to internal documents for business-specific answers\n-
+    CRM integration (Salesforce) for automated customer record updates\n- Helpdesk
+    integration (Zendesk) for automated support ticket creation  \n- Calendar integration
+    for automated meeting booking\n- Advanced workflow integration architecture beyond
+    basic no-code tools\n- Implementation code and deployment instructions for integrated
+    systems\n- Integration testing and validation procedures"
+  agent: deep_integration_developer
+  context:
+  - calculate_roi_and_cost_savings_analysis
+  - identify_high_value_niche_specialization
+create_hybrid_pricing_business_model:
+  description: |-
+    Master the Hybrid Business and Pricing Model for {client_business_name}. The most successful chatbot businesses don't rely on a single revenue stream. The secret is to combine upfront fees with recurring revenue for maximum profitability and stability.
+
+    **Hybrid Pricing Structure:**
+
+    1. **One-Time Setup Fee**: Charge a significant fee ($5,000 - $50,000+) for the initial strategy, design, development, and integration. This covers your initial effort and establishes the value of your custom solution.
+
+    2. **Recurring Monthly Retainer**: Charge a subscription fee ($500 - $5,000+/month) for hosting, maintenance, performance monitoring, and continuous optimization. This creates a predictable income stream and ensures the chatbot remains effective, justifying your long-term partnership.
+
+    **Strategy**: Build a pricing model that maximizes profitability through upfront investment and ongoing partnership value, ensuring both immediate revenue and long-term stability.
+  expected_output: "Complete hybrid pricing business model including:\n- One-Time
+    Setup Fee structure ($5,000 - $50,000+) with detailed justification for strategy,
+    design, development, and integration value\n- Recurring Monthly Retainer pricing
+    ($500 - $5,000+/month) for hosting, maintenance, performance monitoring, and continuous
+    optimization  \n- Revenue stream combination strategy for maximum profitability
+    and stability\n- Pricing justification documentation that establishes custom solution
+    value\n- Long-term partnership value proposition for predictable income streams\n-
+    Professional pricing presentation and proposal templates"
+  agent: hybrid_pricing_model_expert
+  context:
+  - calculate_roi_and_cost_savings_analysis
+  - identify_high_value_niche_specialization
+  - build_deep_integration_chatbot_solution
+final_strategic_recommendation:
+  description: "Create the final strategic recommendation for {client_business_name}
+    based on comprehensive analysis. The chatbot market is not just a fleeting trend;
+    it is a fundamental shift in how businesses operate. The demand is strong, the
+    tools are accessible, and the profit potential is significant. \n\n**Final Recommendation
+    Structure:**\n1. **Market Validation**: Confirm this is a viable, scalable, and
+    highly profitable venture right now\n2. **Strategic Approach**: Position as a
+    strategic automation partner, not a chatbot vendor  \n3. **Success Framework**:
+    Implement the expert approach using ROI selling, niche specialization, hybrid
+    pricing, and deep integration\n4. **Execution Plan**: Provide step-by-step implementation
+    guide\n\n**Critical Message**: The \"secret\" is not to find a different business,
+    but to approach this one with a superior strategy. By selling tangible ROI, specializing
+    in a high-value niche, and building deeply integrated solutions, {client_business_name}
+    can establish a highly profitable and sustainable business.\n\n**Conclusion**:
+    This is a fundamental shift in business operations with strong demand, accessible
+    tools, and significant profit potential."
+  expected_output: "Final strategic recommendation including:\n- Market validation
+    confirming viable, scalable, and highly profitable opportunity\n- Strategic positioning
+    as automation partner rather than chatbot vendor\n- Complete success framework
+    implementing ROI selling, niche specialization, hybrid pricing, and deep integration\n-
+    Step-by-step execution plan for immediate implementation\n- Profit potential analysis
+    and sustainability projections  \n- Risk mitigation strategies and competitive
+    advantages\n- Next steps and action plan for launching the chatbot business empire"
+  agent: roi_focused_strategy_analyst
+  context:
+  - calculate_roi_and_cost_savings_analysis
+  - identify_high_value_niche_specialization
+  - build_deep_integration_chatbot_solution
+  - create_hybrid_pricing_business_model
