@@ -1,0 +1,12 @@
+# CrewAI dependencies (already in pyproject.toml)
+crewai[tools]>=0.203.0,<1.0.0
+
+# Chatbot app dependencies
+flask==3.0.0
+openai==1.12.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+
+# Optional: For integrations
+supabase==2.3.0
+twilio==8.11.0
