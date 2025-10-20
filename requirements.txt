@@ -10,3 +10,14 @@ gunicorn==21.2.0
 # Optional: For integrations
 supabase==2.3.0
 twilio==8.11.0
+
+
+# Integration dependencies (installed but not used until you add API keys)
+twilio==8.11.0              # For WhatsApp
+requests==2.31.0            # For CRM and Calendar APIs
+
+# Optional: For Google Calendar (only install if using Google Calendar)
+# google-auth==2.23.0
+# google-auth-oauthlib==1.1.0
+# google-auth-httplib2==0.1.1
+# google-api-python-client==2.100.0
